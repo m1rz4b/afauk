@@ -29,89 +29,54 @@
 									</div>
 									<div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
 										<ul class="navigation">
-											<li class="active menu-item-has-children">
+											<li class="menu-item">
 												<a href="#">Home</a>
-												<ul class="sub-menu">
-													<li class="active"><a href="index.html">01. Business</a></li>
-													<li><a href="index-2">02. Finance</a></li>
-													<li><a href="index-3">03. Consulting</a></li>
-													<li><a href="index-4">04. Insurance</a></li>
-													<li><a href="index-5">05. Digital Agency</a></li>
-													<li><a href="index-6">06. Finance Solutions</a></li>
-													<li><a href="index-7">07. Accounting Services</a></li>
-													<li><a href="index-8">08. IT Solutions</a></li>
-													<li><a href="index-9">09. Startup Agency</a></li>
-													<li><a href="index-10">10. Corporate</a></li>
-													<li><a href="index-11">11.Marketing Consulting</a></li>
-													<li><a href="index-12">12.App Landing</a></li>
-												</ul>
 											</li>
 											<li class="menu-item-has-children">
 												<a href="#">About Us</a>
 												<ul class="sub-menu">
 													<li>
-														<a href="about">Business About</a>
-														<ul class="sub-menu">
-															<li><a href="about">Menu level 2</a></li>
-															<li>
-																<a href="about-2">Menu level 2</a>
-																<ul class="sub-menu">
-																	<li><a href="about">Menu level 3</a></li>
-																	<li><a href="about-2">Menu level 3</a></li>
-																	<li><a href="about-5">Menu level 3</a></li>
-																	<li><a href="about-3">Menu level 3</a></li>
-																	<li><a href="about-4">Menu level 3</a></li>
-																</ul>
-															</li>
-															<li><a href="about-5">Menu level 2</a></li>
-															<li><a href="about-3">Menu level 2</a></li>
-															<li><a href="about-4">Menu level 2</a></li>
-														</ul>
+														<a href="about">Who we are</a>
 													</li>
-													<li><a href="about-2">Finance About</a></li>
-													<li><a href="about-5">Consulting About</a></li>
-													<li><a href="about-3">Insurance About</a></li>
-													<li><a href="about-4">Digital agency About</a></li>
+													<li><a href="about-2">Our Team</a></li>
+													<li><a href="about-5">Success Stories</a></li>
+													<li><a href="about-3">Owr Reviews</a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
 												<a href="#">Services</a>
 												<ul class="sub-menu">
 													<li><a href="services">Business Service</a></li>
-													<li><a href="services-2">Finance Service</a></li>
-													<li><a href="services-3">Consulting Service</a></li>
-													<li><a href="services-4">Insurance Service</a></li>
-													<li><a href="services-5">Digital agency Service</a></li>
-													<li><a href="services-details">Service Details One</a></li>
-													<li><a href="services-details-2">Service Details Two</a></li>
-													<li><a href="services-details-3">Service Details Three</a></li>
-													<li><a href="services-details-4">Service Details Four</a></li>
-													<li><a href="services-details-5">Service Details Five</a></li>
+													<li><a href="services">Student Admission</a></li>
+													<li><a href="services">Visit Visa Processing</a></li>
+													<li><a href="services">Web Development</a></li>
+													<li><a href="services">Digital Marketing</a></li>
+													
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
-												<a href="#">Pages</a>
+												<a href="#">Universities</a>
 												<ul class="sub-menu">
-													<li><a href="team">Team One</a></li>
-													<li><a href="team-2">Team Two</a></li>
-													<li><a href="team-3">Team Three</a></li>
-													<li><a href="team-4">Team Four</a></li>
-													<li><a href="team-details">Team Details</a></li>
-													<li><a href="project-details">Project Details</a></li>
-													<li><a href="error">404 Error Page</a></li>
-													<li><a href="login">Login Page</a></li>
-													<li><a href="register">Register Page</a></li>
-													<li><a href="forgot-password">Forgot password Page</a></li>
+													<li><a href="services">University List</a></li>
+													<li><a href="services">Course List</a></li>
+													<li><a href="services">Campus Locations</a></li>
+													
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
+												<a href="#">Careers</a>
+												<ul class="sub-menu">
+													<li><a href="services">Become Our Agent</a></li>
+													<li><a href="services">Job Openings</a></li>													
+												</ul>
+											</li>
+											<li class="menu-item">
 												<a href="#">Blog</a>
-												<ul class="sub-menu">
-													<li><a href="blog">Our Blog</a></li>
-													<li><a href="blog-details">Blog Details</a></li>
-												</ul>
 											</li>
-											<li><a href="contact">contacts</a></li>
+											<li class="menu-item">
+												<a href="#">News</a>
+											</li>
+											<li><a href="contact">Contact Us</a></li>
 										</ul>
 									</div>
 									<div class="tgmenu__action d-none d-md-block">
@@ -254,26 +219,26 @@
 					<div class="contact-list mb-30">
 						<h4>Office Address</h4>
 						<p>
-							123/A, Miranda City Likaoli <br />
-							Prikano, Dope
+							119 New Road, London, E1 1HJ, UK
 						</p>
 					</div>
 					<div class="contact-list mb-30">
 						<h4>Phone Number</h4>
-						<p>+0989 7876 9865 9</p>
-						<p>+(090) 8765 86543 85</p>
+						<p>+44 7876 660444 </p>
+					</div>
+					<div class="contact-list mb-30">
+						<h4>Whatsapp</h4>
+						<p>+44 7876 660444</p>
 					</div>
 					<div class="contact-list mb-30">
 						<h4>Email Address</h4>
-						<p>info@example.com</p>
-						<p>example.mail@hum.com</p>
+						<p>info@afassociatesuk.com</p>
 					</div>
 				</div>
 				<div class="offCanvas__social-icon mt-30">
-					<a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
-					<a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
-					<a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a>
+					<a target="_blank" href="https://www.facebook.com/afassociatesuk/"><i class="fab fa-facebook-f"></i></a>
 					<a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+					<a href="javascript:void(0)"><i class="fab fa-tiktok"></i></a>
 				</div>
 			</div>
 			<div class="offCanvas__overly"></div>
