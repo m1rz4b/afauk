@@ -17,7 +17,12 @@
 			<i class="fas fa-angle-up"></i>
 		</button>
 		<!-- Scroll-top-end-->
-        @include('layouts.header')
+		@if (Request::is('/'))
+			@include('layouts.trans_header')
+		@else
+			@include('layouts.sticky_header')
+
+		@endif
 		<!-- main-area -->
 		@yield('content')
 		<!-- main-area-end -->

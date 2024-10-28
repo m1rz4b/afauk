@@ -5,14 +5,14 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<ul class="tg-header__top-info left-side list-wrap">
-								<li><i class="flaticon-phone-call"></i><a href="tel:0123456789">+123 9898 500</a></li>
-								<li><i class="flaticon-pin"></i>256 Avenue, Mark Street, NewYork City</li>
+								<li><i class="flaticon-phone-call"></i><a href="tel:07876660444">+44 7876 660444</a></li>
+								<li><i class="flaticon-pin"></i>119 New Road London E1 1HJ, UK</li>
 							</ul>
 						</div>
 						<div class="col-lg-6">
 							<ul class="tg-header__top-right list-wrap">
-								<li><i class="flaticon-envelope"></i><a href="mailto:info@apexa.com">info@apexa.com</a></li>
-								<li><i class="flaticon-time"></i>Mon-Fri: 10:00am - 09:00pm</li>
+								<li><i class="flaticon-envelope"></i><a href="mailto:info@afassociatesuk.com">info@afassociatesuk.com</a></li>
+								<li><i class="flaticon-time"></i>Mon-Fri: 10:00AM - 06:00PM</li>
 							</ul>
 						</div>
 					</div>
@@ -25,58 +25,50 @@
 							<div class="tgmenu__wrap">
 								<nav class="tgmenu__nav">
 									<div class="logo">
-										<a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo" /></a>
+										<a href="/"><img src="assets/img/logo/logo.png" alt="Logo" /></a>
 									</div>
 									<div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
 										<ul class="navigation">
-											<li class="menu-item">
-												<a href="#">Home</a>
+											<li class="active">
+												<a href="{{'/'}}">Home</a>
 											</li>
 											<li class="menu-item-has-children">
 												<a href="#">About Us</a>
 												<ul class="sub-menu">
-													<li>
-														<a href="about">Who we are</a>
-													</li>
-													<li><a href="about-2">Our Team</a></li>
-													<li><a href="about-5">Success Stories</a></li>
-													<li><a href="about-3">Owr Reviews</a></li>
+													<li><a href="{{ url('who-we-are') }}">Who We Are</a></li>
+												    <li><a href="{{ url('reviews') }}">Our Reviews</a></li>
+													<li><a href="{{ url('success-stories') }}">Success Stories</a></li>
+													<li><a href="{{ url('team') }}">Our Expert Team</a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
 												<a href="#">Services</a>
 												<ul class="sub-menu">
-													<li><a href="services">Business Service</a></li>
-													<li><a href="services">Student Admission</a></li>
-													<li><a href="services">Visit Visa Processing</a></li>
-													<li><a href="services">Web Development</a></li>
-													<li><a href="services">Digital Marketing</a></li>
-													
+													<li><a href="{{ url('student-admission') }}">Student Admission</a></li>
+													<li><a href="{{ url('visa-processing') }}">Visa Processing</a></li>
+													{{-- <li><a href="services-3">Web Development</a></li>
+													<li><a href="services-4">Digital Marketing</a></li> --}}
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
 												<a href="#">Universities</a>
 												<ul class="sub-menu">
-													<li><a href="services">University List</a></li>
-													<li><a href="services">Course List</a></li>
-													<li><a href="services">Campus Locations</a></li>
-													
+													<li><a href="{{ url('universities') }}">University List</a></li>
+													<li><a href="{{ url('courses') }}">Course List</a></li>
+													<li><a href="{{ url('campus') }}">Campus Locations</a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
 												<a href="#">Careers</a>
 												<ul class="sub-menu">
-													<li><a href="services">Become Our Agent</a></li>
-													<li><a href="services">Job Openings</a></li>													
+													<li><a href="{{ url('become-agent') }}">Become Our Agent</a></li>
+													<li><a href="{{ url('jobs') }}">Job Openings</a></li>
 												</ul>
 											</li>
-											<li class="menu-item">
-												<a href="#">Blog</a>
-											</li>
-											<li class="menu-item">
-												<a href="#">News</a>
-											</li>
-											<li><a href="contact">Contact Us</a></li>
+											<li><a href="{{ url('news') }}">News & Blogs</a></li>
+											<!--<li><a href="contact">Contact Us</a></li>-->
+											
+											<!--<li><a href="contact">INTERNATIONAL</a></li>-->
 										</ul>
 									</div>
 									<div class="tgmenu__action d-none d-md-block">
@@ -103,7 +95,7 @@
 													</svg>
 												</a>
 											</li>
-											<li class="header-btn"><a href="contact" class="btn">let’s Talk</a></li>
+											<li class="header-btn"><a href="#" class="btn">Let’s Talk</a></li>
 										</ul>
 									</div>
 									<div class="mobile-nav-toggler">
@@ -219,15 +211,13 @@
 					<div class="contact-list mb-30">
 						<h4>Office Address</h4>
 						<p>
-							119 New Road, London, E1 1HJ, UK
+							119 New Road, E1 1HJ <br />
+							London, United Kingdom
 						</p>
 					</div>
 					<div class="contact-list mb-30">
 						<h4>Phone Number</h4>
-						<p>+44 7876 660444 </p>
-					</div>
-					<div class="contact-list mb-30">
-						<h4>Whatsapp</h4>
+						<p>02 073 778 844</p>
 						<p>+44 7876 660444</p>
 					</div>
 					<div class="contact-list mb-30">
@@ -236,9 +226,10 @@
 					</div>
 				</div>
 				<div class="offCanvas__social-icon mt-30">
-					<a target="_blank" href="https://www.facebook.com/afassociatesuk/"><i class="fab fa-facebook-f"></i></a>
+					<a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
 					<a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
 					<a href="javascript:void(0)"><i class="fab fa-tiktok"></i></a>
+					<a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
 				</div>
 			</div>
 			<div class="offCanvas__overly"></div>

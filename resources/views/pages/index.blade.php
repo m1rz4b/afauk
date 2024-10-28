@@ -2,19 +2,19 @@
 @section('content')
 <main class="fix">
     <!-- banner-area -->
-    <section class="banner-area banner-bg" data-background="assets/img/banner/banner_bg.jpg">
+    <section class="banner-area banner-bg" data-background="assets/img/home3.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="banner-content">
                         <span class="sub-title" data-aos="fade-up" data-aos-delay="0">We Are Expert In This Field</span>
-                        <h2 class="title" data-aos="fade-up" data-aos-delay="200">business Consulting All Solutions</h2>
-                        <p data-aos="fade-up" data-aos-delay="400">Apexa helps you to convert your data into a strategic asset and get business insights Apexa helps you to convert your data into asset and get top-notch business insights.</p>
-                        <a href="about" class="btn" data-aos="fade-up" data-aos-delay="600">Read More</a>
+                        <h2 class="title" data-aos="fade-up" data-aos-delay="200">Consulting Your Academic Goal</h2>
+                        <p data-aos="fade-up" data-aos-delay="400">AF Associates UK provides expert guidance and personalized insights to secure top-notch university admissions in the UK. Let us help you unlock your full potential and achieve your educational goals with confidence.</p>
+                        <a href="{{'who-we-are'}}" class="btn" data-aos="fade-up" data-aos-delay="600">Read More</a>
                     </div>
                     <div class="banner-shape">
                         <img src="assets/img/banner/banner_shape01.png" alt="Apexa" class="rightToLeft" />
-                        <img src="assets/img/banner/banner_shape02.png" alt="Apexa" class="ribbonRotate" />
+                        <img src="assets/img/banner/h5_banner_shape02.png" style="left: 20%; bottom: 10%;" alt="Apexa" class="rightToLeft">
                     </div>
                 </div>
             </div>
@@ -25,13 +25,10 @@
                         <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
                         <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="javascript:void(0)"><i class="fab fa-tiktok"></i></a>
                     </li>
                     <li>
                         <a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
@@ -53,37 +50,32 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="brand-item">
-                            <img src="assets/img/brand/brand_img01.png" alt="Apexa" />
+                            <img src="assets/img/brand/esl4.png" alt="Apexa" />
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-item">
-                            <img src="assets/img/brand/brand_img02.png" alt="Apexa" />
+                            <img src="assets/img/brand/arden4.png" alt="Apexa" />
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-item">
-                            <img src="assets/img/brand/brand_img03.png" alt="Apexa" />
+                            <img src="assets/img/brand/navitas4.png" alt="Apexa" />
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-item">
-                            <img src="assets/img/brand/brand_img04.png" alt="Apexa" />
+                            <img src="assets/img/brand/vcad4.png" alt="Apexa" />
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-item">
-                            <img src="assets/img/brand/brand_img05.png" alt="Apexa" />
+                            <img src="assets/img/brand/qa4.png" alt="Apexa" />
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-item">
-                            <img src="assets/img/brand/brand_img06.png" alt="Apexa" />
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-item">
-                            <img src="assets/img/brand/brand_img03.png" alt="Apexa" />
+                            <img src="assets/img/brand/uap4.png" alt="Apexa" />
                         </div>
                     </div>
                 </div>
